@@ -1,8 +1,8 @@
-
+version findProperty(WebVersion)
 
 dependencies {
     implementation project(':services')
-    implementation project(":utils")
+    testImplementation project(":utils")
     compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: '5.0.0'
 }
 

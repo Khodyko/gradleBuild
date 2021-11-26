@@ -1,3 +1,5 @@
+version findProperty(ServicesVersion)
+
 dependencies {
     implementation project(":utils")
 }

@@ -1,4 +1,5 @@
+version findProperty(AdminVersion)
 dependencies {
     implementation project(":services")
-    implementation project(":utils")
+    testImplementation project(":utils")
 }
